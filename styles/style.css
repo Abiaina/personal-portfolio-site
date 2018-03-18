@@ -1,0 +1,36 @@
+body {
+  display: grid;
+  grid-template-rows: 5fr 1fr;
+}
+
+nav {
+  display: grid;
+  grid-area: 1 \ 1 \ span 1 \ span 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li img {
+  border-radius: 50%;
+  max-width: 300px;
+  min-width:  40px;
+  margin: auto;
+}
+
+footer {
+  display: grid;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+#portfolio:hover{
+
+}
