@@ -1,3 +1,8 @@
+body {
+  display: grid;
+  grid-auto-rows: repeat(5 1fr);
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -11,15 +16,14 @@ nav ul > li {
 
 nav ul li img, nav ul li {
   border-radius: 50%;
-  max-width: 45px;
-  min-width:  15px;
+  max-width: 90px;
+  min-width:  40px;
 }
 
 #homepage_icon {
-  max-width: 45px;
-  min-width: 15px;
+  max-width: 90px;
+  min-width: 40px;
 }
-
 
 #homepage_icon ul {
   display: flex;
@@ -29,6 +33,45 @@ nav ul li img, nav ul li {
 
 #homepage_icon ul li img {
   border-radius: 50%;
-  max-width: 20px;
-  min-width:  10px;
+  max-width: 30px;
+  min-width:  20px;
+}
+
+
+h2 {
+  color: #00551C;
+  font-size: 2em;
+  text-align: center;
+  background-color: #F8BCAC;
+}
+
+h1{
+  color: black;
+  font-size: 3em;
+  text-align: center;
+}
+
+section ul {
+  list-style: none;
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 300px;
+  min-width:  25px;
+  margin: auto;
+}
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.resume {
+  color: black;
+  text-align: left;
 }
